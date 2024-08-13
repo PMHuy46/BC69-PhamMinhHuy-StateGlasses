@@ -1,0 +1,49 @@
+.header{
+    text-align: center;
+    color: white;   
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px 0;
+}
+
+.title {
+    background-image: url('./glassesImage/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.product {
+    margin: 0 300px;
+    background-color: white;
+    padding: 0 57px;
+}
+
+img {
+    width: 200px;
+    margin-left: 25px;
+}
+
+.try {
+    background-image: url('./glassesImage/model.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 350px;
+    position: relative;
+}
+
+.try img {
+    position: absolute;
+    top: 26%;
+    opacity: 0.7;
+    left: 42px;
+    width: 166px;
+    height: 60px;
+}
+
+.info{
+    position: absolute;
+    margin: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(255, 166, 0, 0.733);
+}
